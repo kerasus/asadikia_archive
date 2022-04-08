@@ -1,0 +1,40 @@
+.DS_Store
+.thumbs.db
+.env
+front/node_modules
+
+# Quasar core related directories
+front/.quasar
+front/dist
+front/src-ssr
+front/src-pwa
+
+# Cordova related directories and files
+front/src-cordova/node_modules
+front/src-cordova/platforms
+front/src-cordova/plugins
+front/src-cordova/www
+
+# Capacitor related directories and files
+front/src-capacitor/www
+front/src-capacitor/node_modules
+
+# BEX related directories and files
+front/src-bex/www
+front/src-bex/js/core
+
+# Log files
+front/npm-debug.log*
+front/yarn-debug.log*
+front/yarn-error.log*
+
+# Editor directories and files
+front/.idea
+front/*.suo
+front/*.ntvs*
+front/*.njsproj
+front/*.sln
+
+api/vendor
+api/asadikia-346318-fd852e789270.json
+api/client_secret_564532714143-fsosffgahbts5qpvmju4iplctqdj9h16.apps.googleusercontent.com.json
